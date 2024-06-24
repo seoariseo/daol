@@ -8,9 +8,10 @@
 #header{
     width: 100%;
     height: 80px;
-    background: url(../images/mainbusiness1.jpg) no-repeat top center;
+    background: url(../images/mainslide1.jpg) no-repeat top center;
     position: fixed;
     border-bottom: 1px solid #ddd;
+    z-index: 500;
 }
 
 .head_opa{
@@ -206,7 +207,7 @@
 }
 
 .con_wrap3{
-
+    overflow: hidden;
 }
 .con_wrap3 li{
     width: calc(100% / 3);
@@ -225,4 +226,247 @@
     line-height: 1.7;
     font-size: 14px;
     /* letter-spacing: -1px; */
+}
+
+
+/* activity 영역 */
+.activity{
+    padding: 30px 0;
+}
+.activity img{
+    width: 100%;
+}
+.activity h3{
+    margin: 20px 0;
+}
+.activity p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* aticle 영역 */
+.aticle{
+    overflow: hidden;
+}
+.aticle h3{
+    padding: 10px 0;
+    font-size: 16px;
+    color: #666;
+}
+.aticle .p_first{
+    border-bottom: 2px solid gray ;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.aticle p{
+font-size: 16px;
+color: #666;
+line-height: 2;
+text-align: justify;
+margin-bottom: 10px;
+}
+
+.con_inner4{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 90px 0 70px;
+}
+
+.img_list{
+    overflow: hidden;
+}
+
+.img_list li{
+    float: left;
+    width: calc(100% / 4);
+}
+
+.img_list li div{
+    position: relative;
+    /* line-height: 0; */
+}
+
+.img_list li div a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.3s;
+}
+
+.img_list li div a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img_list li div a span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px 0;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    transition: all 0.3s;
+}
+
+.img_list li div a span:hover{
+    color: lightskyblue;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.img_list li div img{
+    width: 100%;
+    display: block;
+}
+
+.img_list li h4{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.img_list li h5{
+    padding-bottom: 15px;
+    font-weight: 100;
+    text-align: center;
+}
+
+/* consult 영역 */
+.con_inner5{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 90px 0 70px;
+}
+
+.form_table{
+    width: 100%;
+}
+.t_left{
+    background-color: #ddd;
+    font-weight: bold;
+    width: 30%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.form_table td{
+    padding: 10px;
+    border: #666 solid 1px;
+}
+
+.phon2{
+    width: 80px;
+}
+
+.phon3{
+    width: 80px;
+}
+
+.t_right{
+    text-align: right;
+}
+
+.txt_pre{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+
+.img_center{
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.btn input{
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* <!-- follow sns 영역 contact  --> */
+.con_inner6{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background: url(../images/7-min.jpg) no-repeat top center;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+
+.con_inner6_opa{
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+}
+
+.con_inner6_opa h2{
+    padding: 70px 0 30px;
+}
+.con_inner6_opa p{
+    padding: 0 0 20px;
+}
+
+.sns{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.sns li{
+    float: left;
+    width: calc(100% / 3);
+}
+
+.sns li span{
+    font-size: 12px;
+}
+
+.sns li img{
+
+}
+
+#footer{}
+.foot_up{
+    background: #444;
+    color: white;
+    padding: 50px 0;
+}
+
+.foot_up_inner{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.foot_up_inner h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.foot_down{
+    background-color: black;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.foot_down_inner{
+    width: 1000px;
+    margin: 0 auto;
 }
