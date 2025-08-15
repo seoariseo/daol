@@ -434,8 +434,14 @@ margin-bottom: 10px;
     font-size: 12px;
 }
 
-.sns li img{
+.sns li h3{
+    font-size: 18px;
+}
 
+.sns li img{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
 }
 
 #footer{}
